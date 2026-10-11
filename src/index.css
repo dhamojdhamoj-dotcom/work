@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #1a120b;
+    color: #f7efe6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-rustic {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Rustic Wood Grain Texture Patterns */
+.wood-panel {
+  background: linear-gradient(135deg, #2b1d14 0%, #1c120c 50%, #26180f 100%);
+  border: 1px solid rgba(180, 120, 70, 0.25);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 200, 140, 0.1);
+}
+
+.wood-panel-amber {
+  background: linear-gradient(145deg, #3d2617 0%, #29170c 60%, #1f1109 100%);
+  border: 1px solid rgba(217, 119, 6, 0.3);
+  box-shadow: 0 12px 35px -8px rgba(0, 0, 0, 0.75), inset 0 1px 1px rgba(251, 191, 36, 0.15);
+}
+
+.wood-card {
+  background: linear-gradient(180deg, #23160e 0%, #180e08 100%);
+  border: 1px solid rgba(160, 100, 50, 0.2);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.wood-card:hover {
+  border-color: rgba(217, 119, 6, 0.5);
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8), 0 0 25px rgba(217, 119, 6, 0.15);
+}
+
+.wood-header-gradient {
+  background: radial-gradient(circle at 50% 0%, #4a2d1a 0%, #1f130b 70%, #140b06 100%);
+}
+
+.wood-grain-overlay {
+  background-image: radial-gradient(rgba(217, 119, 6, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.brass-border {
+  border-color: #b48342;
+}
+
+.brass-glow {
+  box-shadow: 0 0 20px rgba(212, 143, 56, 0.25);
+}
+
+/* Custom rustic scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #150d08;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a3020;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #784825;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Arjun The Carpenter",
+  "description": "Expert custom furniture orders, modular kitchens, cupboards, aluminium works, commercial bank fitouts, and repair appointments with live order tracking. Free quotes by Master Carpenter Arjun.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
